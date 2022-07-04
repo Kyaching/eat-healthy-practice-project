@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.half-width {
+  width: 50%;
+  margin-left: 7%;
+}
+.half-width span {
+  color: #fba24f;
+}
+p {
+  color: dimgray;
+}
+.my-button {
+  border-radius: 50px;
+  color: white;
+  background-color: #fba24f;
+  border: none;
+  padding: 20px 40px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.half-width img {
+  width: 80%;
+}
+.about-me {
+  background-image: url(images/female/7_1.png);
+  background-repeat: no-repeat;
+  justify-content: flex-end;
+}
+.right-pad {
+  width: 40%;
+  margin-right: 10%;
+}
+
+.food-container {
+  text-align: center;
+}
+.recepie-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.recepie-width {
+  width: 40%;
+  box-shadow: 20px 10px 30px gray;
+  padding: 2%;
+  border-radius: 5%;
+  margin-bottom: 150px;
+}
+.recepie-width img {
+  width: 100%;
+}
