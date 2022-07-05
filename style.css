@@ -3,12 +3,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   color: #575757;
 }
 h2 {
   font-size: 40px;
-  color: #575757;
+  color: #707070;
+}
+h3 {
+  font-weight: 700;
 }
 .banner-container {
   display: flex;
@@ -26,7 +29,7 @@ p {
   color: dimgray;
 }
 .my-button {
-  margin-top: 5%;
+  margin-top: 10%;
   border-radius: 50px;
   color: white;
   background-image: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
@@ -38,8 +41,14 @@ p {
 .half-width img {
   width: 80%;
 }
+.person {
+  width: 31%;
+  padding-top: 34px;
+}
 .about-me {
-  background-image: url(images/female/7_1.png);
+  background-image: url(images/shapes/7.png);
+  background-position: left;
+  background-size: contain;
   background-repeat: no-repeat;
   justify-content: flex-end;
 }
@@ -49,7 +58,7 @@ p {
 }
 
 .food-container .details {
-  width: 46%;
+  width: 40%;
   margin: 3% auto;
   text-align: center;
 }
