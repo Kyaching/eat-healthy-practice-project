@@ -50,6 +50,7 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   justify-content: flex-end;
+  align-items: center;
 }
 .right-pad {
   width: 40%;
